@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Security Settings">
+
+        <EditTextPreference
+            android:key="vault_pin"
+            android:title="Change Vault PIN"
+            android:summary="Set a new 4-digit PIN for your secret vault"
+            android:dialogTitle="Enter new PIN"
+            android:inputType="numberPassword" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
